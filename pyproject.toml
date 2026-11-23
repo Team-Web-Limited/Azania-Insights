@@ -22,7 +22,7 @@ dependencies = [
     "numpy>=2.3,<3",
     "SQLAlchemy>=2.0.36",
     "python-telegram-bot==21.4",
-    "duckdb~=1.3.0",
+    "duckdb>=1.3.0,<1.5",
     "sqlglot<28.0.0",
     # sql-metadata 3.x rewrote its parser onto sqlglot>=30.12, which conflicts
     # with the <28.0.0 pin above (ibis/pandas compat, see above). Left
